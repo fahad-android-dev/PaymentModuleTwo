@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/conAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/screen_margin"
+            android:background="@color/bg_color_fully_transparent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/_20sdp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/color_white"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_15sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtAlertTitle"
+                        style="@style/TextStyleCenterRegular"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_marginHorizontal="@dimen/screen_margin"
+                        android:textColor="@color/txt_color_primary"
+                        android:textSize="@dimen/header_text_size"
+                        android:visibility="gone"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/txtAlertMessage"
+                        style="@style/TextStyleCenterRegular"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginHorizontal="@dimen/screen_margin"
+                        android:textDirection="ltr"
+                        android:textColor="@color/txt_color_primary"
+                        android:textSize="@dimen/header_text_size"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_height="@dimen/btn_size"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/btnAlertNegative"
+                            android:layout_width="@dimen/_110sdp"
+                            style="@style/CommonButtonStyle"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="0dp"
+                            android:textSize="@dimen/btn_text_size"
+                            android:layout_marginEnd="@dimen/_3sdp"
+                            android:layout_height="@dimen/_30sdp" />
+
+                        <TextView
+                            android:id="@+id/btnAlertPositive"
+                            android:layout_width="@dimen/_110sdp"
+                            style="@style/CommonButtonStyle"
+                            android:layout_marginEnd="0dp"
+                            android:background="@drawable/btn_bg"
+                            android:backgroundTint="@color/color_black"
+                            android:layout_marginStart="@dimen/_3sdp"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/btn_text_size"
+                            android:textColor="@color/txt_color_white"
+                            android:layout_height="@dimen/_30sdp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme.PaymentModuleTwo" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_color</item>
+        <item name="colorPrimaryDark">@color/app_color</item>
+        <item name="colorAccent">@color/color_black</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@color/app_bg_color</item>
+        <item name="android:statusBarColor">@color/app_color_status_bar</item>
+        <item name="colorControlActivated">@color/app_bg_dark_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.CropActivity" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_color</item>
+        <item name="colorPrimaryDark">@color/app_color</item>
+        <item name="colorAccent">@color/color_black</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@color/app_bg_color</item>
+        <item name="android:statusBarColor">@color/app_color_status_bar</item>
+        <item name="colorControlActivated">@color/app_bg_dark_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+
+    </style>
+
+    <style name="AppTheme.SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_color</item>
+        <item name="colorPrimaryDark">@color/app_color</item>
+        <item name="colorAccent">@color/color_black</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@color/app_bg_color</item>
+        <item name="android:statusBarColor">@color/color_transparent</item>
+        <item name="colorControlActivated">@color/app_bg_dark_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+
+    </style>
+
+
+</resources>

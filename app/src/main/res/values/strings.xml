@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name" translatable="false">Payment Module Two</string>
+
+    <string name="pushwoosh_app_id_dev" translatable="false">add_app_id_(dev)_here</string>
+    <string name="pushwoosh_app_id_live" translatable="false">add_app_id_(live)_here</string>
+    <string name="pushwoosh_sender_id" translatable="false">add_sender_id_here</string>
+    <string name="pushwoosh_partner_id_live" translatable="false">pw-(add_app_id_(live)_here)</string>
+    <string name="pushwoosh_partner_id_dev" translatable="false">pw-(add_app_id_(dev)_here)</string>
+
+    <string name="google_map_key" translatable="false">AIzaSyDscrvwyRplsn8hdkXkUoo1ZEihiVON-Ls</string>
+
+    <string name="text_enable">Enable</string>
+    <string name="no">No</string>
+    <string name="press_back_message">Press back once again to close app.</string>
+    <string name="enable_notification_to_continue">You need to enable/allow Notification Access from app settings to continue…</string>
+    <string name="enable_location_to_continue">You need to enable location to continue</string>
+    <string name="enable_storage_to_continue">You need to enable/allow storage access from app settings to continue…</string>
+    <string name="enable_camera_to_continue">You need to enable/allow Camera access from app settings to continue…</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="error_message">There was an error while communicating with the server. Please try again later.</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+    <string name="are_you_sure">Are you sure?</string>
+
+    <!--    language-->
+    <string name="alert_language">تريد تغيير لغتك إلى اللغة العربية؟</string>
+    <string name="yes_lang">نعم</string>
+    <string name="no_lang">لا</string>
+    <string name="selected_language_name">العربية</string>
+    <string name="alert_title_lang">انذار!</string>
+
+    <string name="choose_image">Choose image</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+
+    <string-array name="WeekDaysShort">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string-array name="custom_months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="MonthsShort">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <plurals name="seconds">
+        <item quantity="one">%1$s second ago</item>
+        <item quantity="other">%1$s seconds ago</item>
+    </plurals>
+
+    <plurals name="minutes">
+        <item quantity="one">%1$s minute ago</item>
+        <item quantity="other">%1$s minutes ago</item>
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="one">%1$s hour ago</item>
+        <item quantity="other">%1$s hours ago</item>
+    </plurals>
+
+    <plurals name="days">
+        <item quantity="one">%1$s day ago</item>
+        <item quantity="other">%1$s days ago</item>
+    </plurals>
+
+    <plurals name="week">
+        <item quantity="one">%1$s week ago</item>
+        <item quantity="other">%1$s weeks ago</item>
+    </plurals>
+
+    <plurals name="month">
+        <item quantity="one">%1$s month ago</item>
+        <item quantity="other">%1$s months ago</item>
+    </plurals>
+
+    <plurals name="years">
+        <item quantity="one">%1$s year ago</item>
+        <item quantity="other">%1$s years ago</item>
+    </plurals>
+
+    <string-array name="MonthsList">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+
+    <!--Todo Add Error string here START-->
+
+    <string name="error_fb">You have problem in your facebook account. Please try again later.</string>
+    <string name="error_google">You seem to have a problem in your google account. Please try again later.</string>
+    <string name="error_enter_email">Please enter email address</string>
+    <string name="error_invalid_email">Please enter valid email address</string>
+    <string name="error_enter_password">Please enter password</string>
+    <string name="error_enter_confirm_password">Please enter confirm password</string>
+    <string name="error_password_length">Password length must be of at least 6 characters</string>
+    <string name="error_enter_old_password">Please enter old password</string>
+    <string name="error_enter_new_password">Please enter new password</string>
+    <string name="error_password_match">Password and Confirm Password Doesn\'t Match</string>
+    <string name="error_old_password_match">Old Password and New Password Doesn\'t Match</string>
+    <string name="error_enter_confirm_new_password">Please enter confirm new password</string>
+    <string name="error_new_password_match">New Password and Confirm Password Doesn\'t Match</string>
+    <string name="error_old_password_length">Old password length must be of at least 6 characters</string>
+    <string name="error_new_password_length">New password length must be of at least 6 characters</string>
+
+    <!-- Todo Add show msg strings here -->
+    <string name="email_not_found">Email ID not found</string>
+    <string name="user_login_successfully">User logged in successfully</string>
+
+    <!--Todo LOGIN-->
+    <string name="label_login">Login</string>
+    <string name="label_login_subtitle">Let\'s get you connected with business \nowners</string>
+    <string name="hint_email_id">Email Id</string>
+    <string name="hint_password">Password</string>
+    <string name="label_remember_me">Remember me</string>
+    <string name="label_or">Or</string>
+    <string name="label_sign_up">Sign up</string>
+    <string name="label_dont_have_an_account">Dont have an account?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_select_language">Select language</string>
+    <string name="label_english">English</string>
+    <string name="label_arabic">عربي</string>
+    <string name="label_welcome">Welcome</string>
+    <string name="label_lets_get_started">Let\'s get started</string>
+    <string name="label_search_your_department">Search Your Department</string>
+    <string name="label_enter_pin">Enter Pin</string>
+    <string name="label_generate">Generate</string>
+    <string name="label_regenerate">Regenerate</string>
+
+</resources>

@@ -1,0 +1,45 @@
+[versions]
+agp = "8.5.0"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.0"
+espressoCore = "3.6.0"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+websocketVersion = "1.5.2"
+sdpVersion = "1.1.0"
+http = "4.9.3"
+socketVersion = "2.0.0"
+nearpayVersion = "2.1.87"
+otp = "1.1"
+datastoreVersion = "1.0.0"
+gsonVersion = "2.9.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+websocket = { group = "org.java-websocket", name = "Java-WebSocket", version.ref = "websocketVersion" }
+socket = { group = "io.socket", name = "socket.io-client", version.ref = "socketVersion" }
+http = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "http" }
+sdp = { group = "com.intuit.sdp", name = "sdp-android", version.ref = "sdpVersion" }
+ssp = { group = "com.intuit.ssp", name = "ssp-android", version.ref = "sdpVersion" }
+nearpay = { group = "io.nearpay", name = "nearpay-sdk-store", version.ref = "nearpayVersion" }
+otp = { group = "com.github.appsfeature", name = "otp-view", version.ref = "otp"}
+datastorePref = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastoreVersion"}
+datastore = { group = "androidx.datastore", name = "datastore-core", version.ref = "datastoreVersion"}
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gsonVersion"}
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
